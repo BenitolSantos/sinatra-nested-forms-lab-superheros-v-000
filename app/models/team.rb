@@ -5,4 +5,6 @@ attr_accessor :name, :motto
     @name = params[:name]
     @motto = params[:motto]
   end
+
+  
 end
