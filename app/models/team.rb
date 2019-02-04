@@ -12,4 +12,8 @@ attr_accessor :name, :motto
   def self.all
     @@Teams
   end
+
+  def self.clear
+    @@Teams
+  end
 end
