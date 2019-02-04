@@ -1,2 +1,2 @@
-Class teams
+Class Team
 end
