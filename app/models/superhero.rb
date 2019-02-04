@@ -10,8 +10,11 @@ class Superhero
   end
 
   def self.all
+    @@Superheroes
   end
 
   def self.clear
+
   end
+
 end
