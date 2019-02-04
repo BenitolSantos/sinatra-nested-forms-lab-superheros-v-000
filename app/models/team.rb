@@ -10,5 +10,6 @@ attr_accessor :name, :motto
   end
 
   def self.all
+    @@Teams
   end
 end
