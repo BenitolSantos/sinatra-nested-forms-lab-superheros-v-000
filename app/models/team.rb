@@ -14,6 +14,6 @@ attr_accessor :name, :motto
   end
 
   def self.clear
-    @@Teams
+    @@Teams = []
   end
 end
