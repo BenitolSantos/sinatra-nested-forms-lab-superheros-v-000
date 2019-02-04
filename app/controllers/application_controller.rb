@@ -9,6 +9,7 @@ class App < Sinatra::Base
     end
 
     post '/teams'
+    binding.pry
       params
     end
 end
