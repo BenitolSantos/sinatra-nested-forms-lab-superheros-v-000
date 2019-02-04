@@ -6,4 +6,7 @@ class Superhero
     @power = params[:power]
     @biography = params[:power]
   end
+
+  def self.all
+  end
 end
