@@ -10,11 +10,11 @@ class Superhero
   end
 
   def self.all
-    @@Superheroes
+    @@Superheroes = []
   end
 
   def self.clear
-
+    @@Superheroes = []
   end
 
 end
