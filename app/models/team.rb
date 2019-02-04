@@ -6,5 +6,6 @@ attr_accessor :name, :motto
     @motto = params[:motto]
   end
 
-  
+  def self.all
+  end
 end
