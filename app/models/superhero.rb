@@ -7,6 +7,8 @@ class Superhero
     @name = params[:name]
     @power = params[:power]
     @biography = params[:power]
+
+    @@Superheroes << self
   end
 
   def self.all
