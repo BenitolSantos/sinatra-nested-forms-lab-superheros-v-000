@@ -6,7 +6,7 @@ attr_accessor :name, :motto
     @name = params[:name]
     @motto = params[:motto]
 
-
+    @@Teams = [] << self
   end
 
   def self.all
