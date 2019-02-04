@@ -19,4 +19,5 @@ class App < Sinatra::Base
     end
 
     @superheroes = Superhero.all
+  end
 end
