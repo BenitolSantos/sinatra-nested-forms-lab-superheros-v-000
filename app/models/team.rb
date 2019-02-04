@@ -1,4 +1,4 @@
 class Team
-attr_accessor: Power, Biography
+attr_accessor: Name, Motto
 
 end
