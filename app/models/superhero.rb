@@ -9,4 +9,7 @@ class Superhero
 
   def self.all
   end
+
+  def self.clear
+  end
 end
